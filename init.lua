@@ -27,4 +27,5 @@ require('lazy').setup {
   require 'plugins.misc',
   require 'plugins.typescript-tools',
   require 'plugins.nvim-jdtls',
+  require 'plugins.harpoon',
 }

@@ -136,8 +136,11 @@ return {
       dockerls = {},
       sqlls = {},
       terraformls = {},
-      jsonls = {},
-      yamlls = {},
+      -- jsonls = {},
+      -- yamlls = {
+      --  cmd = { 'yaml-language-server', '--stdio' },
+      --  mason = { version = '0.20.0' },
+      -- },
 
       lua_ls = {
         -- cmd = {...},
